@@ -26,12 +26,15 @@ connect to ```https://127.0.0.1:5000```(after run app.py) or [nPython](https://9
 (banwords also worked in "", so add banwords wisely)
 
 # How to use
+## Thath nPython doesnt supported/blocked
 * nPython doesnt support inputs!!
-  ```python
-  a = input()
-  print(f"msg: {a}")
-  # This doesnt will work
-  ```
+    ```python
+    a = input()
+    print(f"msg: {a}")
+    # This doesnt will work
+    ```
+* My banwords u can check in ban_words.py
+## Tips
 * That so run code, u can click button 'Run code' or press 'ctrl+alt'
   
   ![изображение](https://github.com/user-attachments/assets/5b7fead4-df29-4804-aa22-9bf24cbd842d)
