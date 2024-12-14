@@ -2,9 +2,12 @@
 
 ![npython](https://github.com/user-attachments/assets/36e1c529-7490-4046-8f32-23007806b1d0)
 
+![favicon](https://github.com/user-attachments/assets/f7b4ae37-f1a9-4273-abea-838d07e0d8c9)
+
 # About
 
 [nPython](https://9off.pythonanywhere.com/)- online python interpreter created for me by me
+(u also can selfhost nPython)
 
 # Need to install
 * python3 and pip
@@ -16,7 +19,19 @@ git clone https://github.com/KriperPlay/nPython/
 cd nPython
 python3 app.py
 ```
+connect to ```https://127.0.0.1:5000```(after run app.py) or [nPython](https://9off.pythonanywhere.com/) (if u dont want to selfhost nPython)
 
 # Settings
 * u can add ban words, so that block some modules or something else
 (banwords also worked in "", so add banwords wisely)
+
+# How to use
+* nPython doesnt support inputs!!
+  ```python
+  a = input()
+  print(f"msg: {a}")
+  # This doesnt will work
+  ```
+* That so run code, u can click button 'Run code' or press 'ctrl+alt'
+  
+  ![изображение](https://github.com/user-attachments/assets/5b7fead4-df29-4804-aa22-9bf24cbd842d)
