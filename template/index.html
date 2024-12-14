@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='../static/style.css') }}">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/codemirror.min.css" />
+    
+    <link rel="shortcut icon" href="{{ url_for('static', filename='../static/imgs/favicon.png') }}">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nPython</title>
+    
+    <style>
+        .CodeMirror {
+            height: auto;
+            border: 1px solid #ddd;
+            font-size: 14px;
+            
+        }
+    </style>
+
+</head>
+<body>
+
+<h1><img style="width: 200px; height: 65px;" src="{{ url_for('static', filename='../static/imgs/npython.png') }}"></h1>
+
+<textarea id="code">print("Hello, nPython!")</textarea>
+
+<button id="run" title="Run: ctrl+alt">Run code</button>
+<button id="github" title="github"><img style="width: 15px;height: 15px;vertical-align: middle" src="{{ url_for('static', filename='../static/imgs/github.jpg') }}" onclick="window.open('https://github.com/KriperPlay/nPython', '_blank')"></button>
+
+<h2>Result:</h2>
+<pre id="result"></pre>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/codemirror.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/mode/python/python.min.js"></script>
+
+<script src="{{ url_for('static', filename='../static/script.js') }}"></script>
+
+</body>
+</html>

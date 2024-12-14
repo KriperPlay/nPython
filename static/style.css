@@ -1,0 +1,38 @@
+
+
+#result {
+    border: 1px solid #000000;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+body {
+    background-color: rgb(68, 199, 199);
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #000000;
+}
+
+#run {
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+}
+
+#github {
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  -moz-pre-wrap: pre-wrap;
+  -o-pre-wrap: pre-wrap;
+}
+
+h2 {
+    font-family:'Courier New', Courier, monospace
+}
