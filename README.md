@@ -1,6 +1,6 @@
 # nPython
 
-![npython(1)](https://github.com/user-attachments/assets/7c735e79-16a0-4261-b50e-4eca90249ecc)
+![npython](https://github.com/user-attachments/assets/36e1c529-7490-4046-8f32-23007806b1d0)
 
 # About
 
