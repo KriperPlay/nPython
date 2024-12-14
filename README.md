@@ -44,3 +44,9 @@ connect to ```https://127.0.0.1:5000```(after run app.py) or [nPython](https://9
 * That so run code, u can click button 'Run code' or press 'ctrl+alt'
   
   ![изображение](https://github.com/user-attachments/assets/5b7fead4-df29-4804-aa22-9bf24cbd842d)
+
+# Screenshots
+![изображение](https://github.com/user-attachments/assets/1711210d-7a7d-41b6-bc8b-1cb77f60d2ae)
+
+# End
+thx for using nPython <3
