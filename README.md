@@ -33,6 +33,12 @@ connect to ```https://127.0.0.1:5000```(after run app.py) or [nPython](https://9
     print(f"msg: {a}")
     # This doesnt will work
     ```
+* nPython doesnt support arguments(sys)
+  ```python
+  a = sys.argv[1]
+  print(f"sys.argv[1] = {a}")
+  # This doesnt will work
+  ```
 * My banwords u can check in ban_words.py
 ## Tips
 * That so run code, u can click button 'Run code' or press 'ctrl+alt'
